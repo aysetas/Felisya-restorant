@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
+h1{
+    font-family: 'Bungee', cursive;
+}
+h2,h3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.mainHeader{
+    width: 100%;
+    height: 750px;
+    background:url(../img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  
+}
+.headerConteiner{
+    width: 1200px;
+    height: 750px;
+    margin:auto;
+
+   
+}
+.headerTop{
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.ulTopLeft {
+    list-style-type: none;
+    display: inline-block;
+}
+.ulTopLeft li{
+    display: inline-block;
+    line-height:50px;
+    border-right: 1px solid #596275;
+    padding:0 10px;
+  }
+.ulTopLeft li:first-child{
+      padding-left: 0px;
+  }
+  .ulTopLeft li:last-child{
+      border-right: 0px;
+
+  }
+.ulTopLeft li a{
+    text-decoration: none;
+    color:#303952;
+    font-weight: bold;
+    
+}
+.ulTopLeft li a:hover{
+    color: #596275;
+}
+.TopRight{
+    position: relative;
+    display:flex;
+    height: 50px;
+    align-items: center;
+    
+}
+.TopContactLogo{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+   
+}
+
+.ContactText{
+
+    line-height: 30px;
+    font-weight: bold;
+  
+}
+/*nav başlangıcı*/
+nav{
+    width:100%;
+    height: 80px;
+    position:absolute;
+    background:#000;
+    opacity: 0.7;
+    top:50px;
+}
+.navContent{
+    width: 1200px;
+    height: 80px;
+    position: relative;
+    margin:auto;
+    display:flex;
+
+    justify-content: space-between;
+
+}
+.navContent .navLogo{
+    font-family: 'Bungee', cursive;
+    font-size:30px;
+    color:#fff;
+    text-transform: uppercase;
+    line-height: 80px;
+    display:inline-block;
+    
+
+}
+.navUl{
+   
+    height: 80px;
+    position: relative;
+    display: flex;
+    line-height: 80px;
+    
+}
+.navUl li{
+    padding-left:15px;
+    list-style-type: none;
+    display:inline-block;
+}
+.navUl li a{
+    text-decoration:none;
+    color: #dfe4ea;
+    
+}
+.navUl li a:hover{
+    color:#fff;
+}
+.textHeader{
+    margin-top: 300px;
+    color: #fff;
+    
+   
+  
+}
+.textHeader h1{
+    line-height:80px;
+    font-size: 40px;
+    text-shadow:5px 5px 10px #000;
+    
+}
+.textHeader h2{
+    line-height:60px;
+    font-size: 40px;
+    text-shadow:5px 5px 10px #000;
+    
+}
+.textHeader p{
+    line-height:40px;
+    font-size: 20px;
+    text-shadow:1px 1px 1px #000;
+    display:inline-block;
+    background: rgba(0, 0,0, 0.5);
+}
