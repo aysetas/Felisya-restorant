@@ -31,7 +31,6 @@ a{
 }
 .headerConteiner{
     width: 1200px;
-    height: 750px;
     margin:auto;
 
    
@@ -91,56 +90,7 @@ a{
     font-weight: bold;
   
 }
-/*nav başlangıcı*/
-nav{
-    width:100%;
-    height: 80px;
-    position:absolute;
-    background:#000;
-    opacity: 0.7;
-    top:50px;
-}
-.navContent{
-    width: 1200px;
-    height: 80px;
-    position: relative;
-    margin:auto;
-    display:flex;
 
-    justify-content: space-between;
-
-}
-.navContent .navLogo{
-    font-family: 'Bungee', cursive;
-    font-size:30px;
-    color:#fff;
-    text-transform: uppercase;
-    line-height: 80px;
-    display:inline-block;
-    
-
-}
-.navUl{
-   
-    height: 80px;
-    position: relative;
-    display: flex;
-    line-height: 80px;
-    
-}
-.navUl li{
-    padding-left:15px;
-    list-style-type: none;
-    display:inline-block;
-}
-.navUl li a{
-    text-decoration:none;
-    color: #dfe4ea;
-    
-}
-.navUl li a:hover{
-    color:#fff;
-}
 .textHeader{
     margin-top: 259px;
     color: #fff;
@@ -195,6 +145,56 @@ nav{
 .headerButton a:hover{
     background:#02523e;  
     border: 1px solid #02523e;
+}
+/*nav başlangıcı*/
+nav{
+    width:100%;
+    height: 80px;
+    position:absolute;
+    background:#000;
+    opacity: 0.7;
+    top:50px;
+}
+.navContent{
+    width: 1200px;
+    height: 80px;
+    position: relative;
+    margin:auto;
+    display:flex;
+
+    justify-content: space-between;
+
+}
+.navContent .navLogo{
+    font-family: 'Bungee', cursive;
+    font-size:30px;
+    color:#fff;
+    text-transform: uppercase;
+    line-height: 80px;
+    display:inline-block;
+    
+
+}
+.navUl{
+   
+    height: 80px;
+    position: relative;
+    display: flex;
+    line-height: 80px;
+    
+}
+.navUl li{
+    padding-left:15px;
+    list-style-type: none;
+    display:inline-block;
+}
+.navUl li a{
+    text-decoration:none;
+    color: #dfe4ea;
+    
+}
+.navUl li a:hover{
+    color:#fff;
 }
 /*section başlangıcı*/
 
@@ -257,10 +257,99 @@ margin: auto;
 }
 .textAbout p{
     width:700px;
-    
     padding-bottom:10px ;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size:17px;
     line-height: 20px;
    
+}
+.menuSection{
+width: 100%;
+position: relative;
+margin-top:50px;
+background: #000;
+
+}
+.menuContent{
+width:1200px;
+height:650px;
+position: relative;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.menuContent img{
+    width: 400;
+    height: 300;
+    position: relative;
+}
+.menuContent img:hover{
+    transform: scale(1.02); 
+	transition:all.5s ease-in-out;
+}
+.menuText{
+    width: 900px;
+    height: 300px;
+    border:2px solid #fff;
+    background:rgba(255,255,255, 0.4); 
+    position: absolute;
+    margin-top: 170px;
+    text-align: center;
+    
+    
+}
+.menuText h1{
+    font-size:25px;
+    color: #000;
+    line-height: 200px;
+  
+}
+.menuText a{
+    background: #10ac84;
+    border: 1px solid #10ac84;
+    padding: 20px;
+    color:#fff;
+    text-shadow: 2px 2px 5px #000;
+}
+.menuText a:hover{
+    background:#02523e;  
+   
+}
+.chefSection{
+    width:1200px;
+    height:600px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    
+}
+.titleChef{
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+}
+.titleChef h1{
+    line-height: 50px;
+    font-size: 22px;
+    padding:20px 0px;
+}
+.chefContent{
+    width: 1200px;
+    margin-top:60px;
+    padding:50px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.chefContent img{
+    padding-left: 40px;
+    
+}
+.chefContent img:hover{
+    transform: scale(1.02); 
+	transition:all.5s ease-in-out;
 }
