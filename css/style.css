@@ -325,6 +325,16 @@ justify-content: center;
     margin-top: 50px;
     
 }
+.chefSection .chefContent{
+    width: 1200px;
+    margin-top:60px;
+    padding:50px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
 .titleChef{
     width: 1200px;
     height: 100px;
@@ -336,20 +346,149 @@ justify-content: center;
     font-size: 22px;
     padding:20px 0px;
 }
-.chefContent{
-    width: 1200px;
-    margin-top:60px;
-    padding:50px 20px;
+.chefSection .chefContent .imgChef{
+    width: 350px;
+    height: 460px;
     display: flex;
+    margin-left: 20px;
     justify-content: center;
-    flex-wrap: wrap;
+    top: 20px;
+    position: relative;
+    flex-direction: column;
+   
     
 }
-.chefContent img{
-    padding-left: 40px;
-    
+.chefSection .chefContent .imgChef img{
+   padding: 0px 0 40px 0;
+    height: 350px;
+    padding-bottom: 0;
+    position: relative;
+    margin-bottom:20px;
+
 }
-.chefContent img:hover{
+.chefSection .chefContent .imgChef img:hover{
     transform: scale(1.02); 
 	transition:all.5s ease-in-out;
 }
+.chefSection .chefContent .imgChef h2{
+    font-size: 23px;
+    font-family: cursive;
+    text-align: center;
+    padding:10px 0;
+    text-shadow: 1px 1px 3px #000;
+    border-radius: 10px;
+    box-shadow:1px 1px 2px #ccc;
+}
+.endSection{
+    width: 100%;
+    margin-top:100px;
+    position: relative;
+}
+.endSection .mekanContent{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  position: relative;
+}
+.endSection .secMekan{
+    width:600px;
+    height: 600px;
+    background: rgba(0, 0,0, 0.6);
+    position: absolute;
+    margin-left: 100px;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    
+   
+}
+.endSection .secMekan h1{
+    font-size: 25px;
+    text-align: center;
+}
+.endSection .secMekan h3{
+    font-size: 25px;
+    line-height: 50px;
+   
+}
+.endSection .secMekan p{
+  line-height:32px;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+.endSection .secMekan p:last-child{
+   
+    border-bottom: 2px solid #fff;
+}
+/*footer */
+.footer{
+    width: 100%;
+    height: 300px;
+    background: url(../img/footer-bg.jpg);
+    position: relative;
+    
+}
+.footerContent{
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+    position:relative;
+    display: flex;
+    
+    align-items: center;
+    
+}
+.footerContent .footerLogo{
+    font-family: 'Pacifico', cursive;
+    font-size:60px;
+    color:#fff;
+    text-transform: uppercase;
+    line-height: 80px;
+    display:inline-block;
+}
+.footerContent .SosyalLogo{
+    font-size:60px;
+    color:rgba(29,161,242,1.00);
+}
+.footerContent .SosyalLogo i:first-child{
+    color:rgb(177, 14, 35);
+}
+.footerContent .SosyalLogo i:last-child{
+    color:tomato;
+}
+.footerContent .SosyalLogo i:hover{
+    transform: scale(1.1); 
+	transition:all.5s ease-in-out;
+}
+.ftrContact{
+    color: #fff;
+    font-size: 17px;
+    line-height: 40px;
+    margin-left: 50px;  
+}
+.ftrContact h1{
+   border-bottom: 3px solid #10ac84;
+   text-align: center;
+}
+.aboneContact{
+    color: #fff;
+    font-size: 17px;
+    line-height:30px;
+    margin-left: 50px;
+}
+.aboneContact h1{
+    border-bottom: 3px solid #10ac84;
+    text-align: center;
+ }
+.aboneContact input{
+     width:350px;
+     height: 40px;
+     margin-top: 20px;
+     border-radius: 5px;
+ }
